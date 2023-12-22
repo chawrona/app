@@ -1,0 +1,25 @@
+.background {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: clamp(1.3rem, 0.3043rem + 3.4783vw, 3rem);
+    gap: 2rem;
+}
+
+.inputs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2em;
+}
+
+.inputs::before {
+    content: "#";
+    left: 0;
+    transform: translate(-110%, -3%);
+    position: absolute;
+    font-size: 2.6em;
+    font-style: none;
+}

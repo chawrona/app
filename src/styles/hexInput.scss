@@ -1,0 +1,16 @@
+.hexInput {
+    aspect-ratio:  2 / 3;
+    background-color: #e5e5e5;
+    font-size: 1.8em;
+    max-width: 5rem;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    flex-shrink: 1;
+}
+
+.wrongChar {
+    box-shadow: 0 0 6px 3px rgba(255, 0, 0, 0.596);
+}
