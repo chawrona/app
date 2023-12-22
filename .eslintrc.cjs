@@ -11,7 +11,7 @@ module.exports = {
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['./tsconfig.json'], // Specify it only for TypeScript files
+    project: ['./tsconfig.json'],
   },
   plugins: ['react-refresh', "import"],
   rules: {
