@@ -15,11 +15,13 @@ module.exports = {
   },
   plugins: ['react-refresh', "import"],
   rules: {
+    "quotes": [2, "single", { "avoidEscape": true }],
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
     "@typescript-eslint/comma-dangle": "off",
-    "@typescript-eslint/no-unused-vars": "off"
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/indent": "off",
   },
 }

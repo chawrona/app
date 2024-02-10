@@ -1,0 +1,32 @@
+@import '_variables';
+
+.list {
+  position: relative;
+  // background-color: #f1f2f4;
+  // background-color: #fff;
+  border-radius: 0.5rem;
+  padding: $list-vertical-padding $list-horizontal-padding;
+  max-width: 1000px;
+  margin-inline: auto;
+  width: 100%;
+  // height: calc(100svh - $app-padding * 2)
+}
+
+h1 {
+  padding: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+    font-size: 4rem;
+    color: black;
+}
+
+@media (width < 768px) {
+  .list {
+    padding: 1rem 1rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+}

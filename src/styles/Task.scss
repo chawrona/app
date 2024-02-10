@@ -1,0 +1,53 @@
+$headerGap: 1rem;
+$buttonWidth: 1.35rem;
+
+.task {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    max-width: 55ch;
+    align-items: start;
+    margin-top: .5rem;
+    border-radius: 0.5rem;
+    color: #171717;
+    padding: 1rem 1rem 1rem 1rem;
+    cursor: pointer;
+}
+.task {
+    background-color: #fff;
+}
+
+img {
+    width: $buttonWidth;
+}
+
+.taskHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: $headerGap;
+}
+
+.taskHeader h2 {
+    font-size: 1.35rem;
+    font-weight: normal;
+}
+
+.description {
+    color: #484848;  
+    max-width: 50ch;
+    // margin-left: $buttonWidth + $headerGap;
+}
+
+.formatedDate {
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 0.25rem;
+    font-size: 0.93rem;
+    border: 1px solid black;
+    padding: 0.35em 0.75em;
+    border-radius: 5px;
+    // margin-left: $buttonWidth + $headerGap;
+}
